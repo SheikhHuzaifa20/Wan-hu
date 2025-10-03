@@ -1,0 +1,277 @@
+
+
+.inner-book h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+/* contact styling */
+
+.crossing-banner-3 {
+    background-image: url('../images/the-crossing-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.crossing-banner-2 {
+    background-image: url('../images/farmer-dell-and-jezebell-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.crossing-banner-4 {
+    background-image: url('../images/the-macabee-brothers-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.crossing-banner-1 {
+    background-image: url('../images/wna-hu-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.crossing-banner-3 .banner-content p {
+    color: white !important;
+    width: 90%;
+    line-height: 25px;
+     font-size:16px;
+}
+.crossing-banner-3 .banner-content h2 {
+    color: white !important;
+     text-shadow: none !important;
+     line-height: 66px;
+}
+.crossing-banner-3 .sides-animation {
+        z-index: -1;
+}
+.crossing-banner-2 .banner-content p {
+    color: white !important;
+    width: 90%;
+    line-height: 25px;
+     font-size:16px;
+}
+.crossing-banner-2 .banner-content h2 {
+    color: white !important;
+     text-shadow: none !important;
+     line-height: 66px;
+}
+.crossing-banner-4 .banner-content p {
+    color: white !important;
+    width: 90%;
+    line-height: 25px;
+     font-size:16px;
+}
+.crossing-banner-4 .banner-content h2 {
+    color: white !important;
+     text-shadow: none !important;
+     line-height: 66px;
+}
+.crossing-banner-1 .banner-content p {
+    color: white !important;
+    width: 90%;
+    line-height: 25px;
+    font-size:16px;
+}
+.crossing-banner-1 .banner-content h2 {
+    color: white !important;
+    text-shadow: none !important;
+    line-height: 66px;
+    
+}
+
+.crossing-banner-4:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+       background: linear-gradient(90deg, black, transparent);
+}
+.crossing-banner-3:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+        background: linear-gradient(90deg, black, transparent);
+}
+.crossing-banner-2:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+        background: linear-gradient(90deg, black, transparent);
+}
+.crossing-banner-1:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+       background: linear-gradient(90deg, black, transparent);
+}
+
+
+.crossing-banner-2 .sides-animation.donkey-img {
+    left: auto;
+    right: 0 !important;
+    text-align: end;
+}
+.crossing-banner-3 .sides-animation.farmer1-img {
+    right: 0;
+    left: unset;
+        text-align: end;
+}
+.crossing-banner-3 .sides-animation.farmer1-img img{
+  width: 30% !important;
+}
+
+.contact-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #25336e;
+}
+
+.contact-title {
+    color: #25336e;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #25336e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #1c2959;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #25336e;
+    box-shadow: 0 0 0 0.25rem rgba(37, 51, 110, 0.25);
+}
+
+/* contact styling */
+
+
+
+.inner-book {
+    background-color: #25336e;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.inner-book-content {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+section.inner-book-content .sides-animation.farmer2-img {
+    bottom: 0;
+}
+
+section.inner-book-content .sides-animation.farmer2-img img {
+    width: 60%;
+}
+
+section.inner-book-content .sides-animation.farmer3-img {
+    bottom: 0;
+
+}
+
+section.inner-book-content .sides-animation.farmer3-img img {
+    width: 60%;
+
+
+}
+
+section.inner-book-content .sides-animation.donkey-img {
+    bottom: 0;
+    top: unset;
+    left: 0;
+}
+
+section.inner-book-content .sides-animation.donkey-img img {
+    width: 20%;
+}
+
+section.inner-book-content .sides-animation.farmer1-img img {
+    width: 60%;
+}
+
+section.inner-book-content .left-img {
+    right: 0;
+}
+
+section.inner-book-content .animate-img.bird-img {
+    right: unset;
+    top: 40px;
+}
+
+.wan-hu-img img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.animate-img.wan-hu-img img {
+    width: 20%;
+}
+
+.cart1-img {top: 30px;}
+.cart2-img {
+    text-align: end;
+    bottom: 12px;
+    right: 8px;
+    }
+
+.animate-img.cart2-img img {
+    width: 15%;
+}
+.animate-img.cart1-img img {
+    width: 15%;
+}
+section.inner-book-content.wanhu-pg {
+    padding: 150px 0;
+}

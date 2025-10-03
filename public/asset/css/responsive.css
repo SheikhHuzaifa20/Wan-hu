@@ -1,0 +1,163 @@
+@media (max-width:1440px) {
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+    .banner-content h2 {
+        font-size: 35px;
+    }
+
+    .back-circle img {
+        width: 65%;
+    }
+
+    .back-circle {
+        right: -340px;
+    }
+
+    .hm-banner {
+        height: 860px;
+    }
+
+    .banner-content p {
+        width: 80%;
+    }
+
+    .book-content h3 {
+        font-size: 25px;
+        padding: 0px 40px;
+
+    }
+
+    .right-img {
+        left: -80px;
+        top: -200px;
+    }
+
+    .books {
+        padding-top: 150px;
+        overflow: hidden;
+    }
+
+    .tractor-img img {
+        width: 65%;
+    }
+
+    .tractor-img {
+        top: 240px;
+        left: -150px;
+    }
+
+    .left-img {
+        right: -70px;
+    }
+
+    .donkey-img {
+        right: -300px;
+        top: 300px;
+        z-index: -1;
+    }
+
+    .sides-animation.donkey-img img {
+        width: 60%;
+    }
+
+    .bird-img {
+        right: -300px;
+        top: 100px;
+    }
+
+    .book-name h5 {
+        font-size: 16px;
+    }
+
+    .audibook {
+        width: 75%;
+        padding: 25px 10px;
+    }
+
+    .farmer3-img img {
+        width: 60%;
+    }
+
+    .sides-animation.farmer3-img {
+        text-align: end;
+        right: 0;
+    }
+
+    .farmer2-img {
+        left: 0;
+        bottom: -160px;
+    }
+
+    .farmer2-img img {
+        width: 60%;
+    }
+
+    .phone-img figure img {
+        height: 350px;
+        margin-top: -65px;
+    }
+
+    .phone-img h3 {
+        font-size: 30px;
+    }
+
+    .phone-img p {
+        width: 90%;
+    }
+
+    .phone-img h6 {
+        margin-bottom: 15px;
+    }
+
+    .main-client p {
+        width: 90%;
+    }
+
+    .book-img:before {
+        top: -55px;
+        left: -10px;
+    }
+
+    .book-img:after {
+        right: -10px;
+        bottom: -59px;
+    }
+
+    .about-books {
+        height: 1350px;
+    }
+
+    .farmer1-img img {
+        width: 60%;
+    }
+
+    .farmer-img img {
+        width: 55%;
+    }
+
+    .wanhu-books-content h3 {
+        font-size: 35px;
+    }
+
+    .farmer-img {
+        top: 190px;
+        right: -170px;
+    }
+
+    .wanhu-books a {
+        padding: 12px 30px;
+    }
+
+    .wanhu-books .atropos.my-atropos.atropos-rotate-touch {
+        width: 50%;
+    }
+
+    .wanhu-books img {
+        width: 77%;
+    }
+    .wanhu-books a {
+        width: 20%;
+    }
+}
