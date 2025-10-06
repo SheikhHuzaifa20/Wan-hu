@@ -12,10 +12,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{route("home")}}">Home</a>
+                                <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route("about")}}">About</a>
+                                <a class="nav-link" href="{{ route('about') }}">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -23,11 +23,11 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route("contact")}}">Contact Us</a>
+                                <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                             </li>
                         </ul>
                         <form class="d-flex top-btn">
-                            <a href="#bookssec" class="btn btn-web wth-btn">Books</a>
+                            <a href="{{route('home')}}#bookssec" class="btn btn-web wth-btn">Books</a>
                         </form>
                     </div>
                 </nav>

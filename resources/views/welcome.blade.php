@@ -27,8 +27,9 @@
                                                 <!-- <h2>simply dummy text</h2> -->
                                                 {!! $product->description !!}
                                                 <div class="banner-btn">
-                                                    <a href="{{route("contact")}}" class="btn btn-web trns-btn">Contact</a>
-                                                    <a href="#bookssec" class="btn btn-web blue-btn">Books</a>
+                                                    <a href="{{ route('contact') }}" class="btn btn-web trns-btn">Contact</a>
+                                                    <a href="#bookssec"
+                                                        class="btn btn-web blue-btn">Books</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,12 +77,16 @@
                         <div class="animate-img right-img">
                             <img src="{{ asset('asset/images/1.png') }}" class="img-fliud" alt="">
                         </div>
+<<<<<<< HEAD
                         <h3>
                             “Montz turns a centuries-old legend into a gentle reminder that even the
                             wildest aspirations deserve a moment to shine. This poetic tale plants a
                             spark of possibility in young hearts and reminds us all to keep looking up.”
 
                         </h3>
+=======
+                        {!! $sections[7]->value !!}
+>>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                         <a href="#reviews" class="btn btn-web blue-btn">More Reviews</a>
                         <div class="animate-img left-img">
                             <img src="{{ asset('asset/images/2.png') }}" class="img-fliud" alt="">
@@ -119,7 +124,7 @@
                             </div>
                             <div class="book-name">
                                 <h5>
-                                    {{$macabee_brothers->product_title}}
+                                    {{ $macabee_brothers->product_title }}
                                 </h5>
                             </div>
                         </a>
@@ -134,7 +139,7 @@
                             </div>
                             <div class="book-name">
                                 <h5>
-                                    {{$farmer_dell_jezebell->product_title}}
+                                    {{ $farmer_dell_jezebell->product_title }}
                             </div>
                         </a>
 
@@ -148,7 +153,7 @@
                             </div>
                             <div class="book-name">
                                 <h5>
-                                    {{$the_crossing->product_title}}
+                                    {{ $the_crossing->product_title }}
                                     </h6>
                             </div>
                         </a>
@@ -186,7 +191,7 @@
                     <div class="wanhu-books-content">
                         <h3 class="typingheading">{{ $page->name }}</h3>
                         {!! $page->content !!}
-                        <a href="about.php" class="btn btn-web blue-btn">Read More</a>
+                        <a href="{{route('about')}}" class="btn btn-web blue-btn">Read More</a>
                     </div>
                 </div>
             </div>
@@ -239,7 +244,7 @@
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="phone-img">
-                                        {!!$sections[6]->value!!}
+                                        {!! $sections[6]->value !!}
                                         <div class="btn-flux">
                                             <a class="btn btn-web wth-btn">Buy this on audible</a>
                                         </div>
@@ -257,22 +262,34 @@
             <div class="row">
                 <div class="col-lg-12 p-0">
                     <div class="main-testimonial">
-                        <h2 class="typingheading">Happy People</h2>
+                        <h2 class="typingheading">{{ $sections[8]->value }}</h2>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="owl-slides">
                         <div class="happy-client owl-carousel owl-theme">
+<<<<<<< HEAD
                             @foreach($testimonial as $testimonial)
+=======
+                            @foreach ($testimonial as $testimonial)
+>>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                                 {{-- @dd($testimonial) --}}
                                 <div class="item">
                                     <div class="main-client">
                                         <img src="{{ asset('asset/images/21.png') }}" class="img-fluid" alt="">
+<<<<<<< HEAD
                                         {!!$testimonial->comments!!}
                                         <div class="name-client">
                                             <h6>
                                                 {{$testimonial->name}}
                                                 <span class="d-block">{{$testimonial->designation}}</span>
+=======
+                                        {!! $testimonial->comments !!}
+                                        <div class="name-client">
+                                            <h6>
+                                                {{ $testimonial->name }}
+                                                <span class="d-block">{{ $testimonial->designation }}</span>
+>>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                                             </h6>
                                         </div>
                                     </div>

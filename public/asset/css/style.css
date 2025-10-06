@@ -227,7 +227,7 @@ section.books {
 }
 
 .book-content h3 {
-        font-size: 30px;
+    font-size: 30px;
     line-height: 50px;
     color: var(--web-color);
     font-weight: 400;
@@ -496,6 +496,7 @@ a.btn.btn-yellow.trans-btn.no {
     text-align: end;
     right: 0;
 }
+
 .farmer3-img {
     right: -60px;
     bottom: -200px;
@@ -690,6 +691,10 @@ footer {
     font-size: 35px;
 }
 
+#formLoader img {
+    width: 50px;
+}
+
 /* footer css end */
 
 /* keyframe css start */
@@ -754,7 +759,7 @@ footer {
 
 .wth-btn:hover {
     background: var(--grid-color);
-    color: white!important;
+    color: white !important;
     border: 2px solid white;
 }
 
@@ -790,6 +795,7 @@ footer {
 .atropos-rotate {
     position: relative;
 }
+
 .akajk {
     top: 6%;
 }
