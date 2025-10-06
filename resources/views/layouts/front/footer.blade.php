@@ -38,7 +38,7 @@
                                 @csrf
                                 <div class="form-group">
                                     <input type="email" class="form-control" name="newsletter_email"
-                                        placeholder="Your email" required>
+                                        placeholder="Your email" id="exampleInputEmail1" required>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Subscribe</button>
                             </form>
@@ -66,7 +66,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="mailto:info@domain.com" class="info-email">{{$company_email->flag_value}}</a>
+                            <a href="mailto:info@wanhu.com" class="info-email">{{$company_email->flag_value}}</a>
                         </div>
                     </div>
                 </div>

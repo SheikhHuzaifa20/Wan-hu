@@ -53,15 +53,6 @@
                                                                 <img src="{{asset($product->image)}}" class="img-fluid"
                                                                     alt="" data-atropos-offset="2">
                                                             </a>
-                                                            <!-- <div id="hide" class="beast main-after">
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <h3>The Legend of Wan Hu</h3>
-                                                            <p>A timeless fable brought to life in lyrical verse, The Legend of Wan Hu tells the story of a young dreamer determined to touch the skies. Set in a faraway land, it follows Wan Hu’s relentless pursuit of flight. A journey marked by hope, ingenuity, and the courage to chase the impossible. Whether his daring attempt soars or falters, his story endures as a lesson in ambition, the necessity of caution, and the beauty of never giving up.</p>
-                                                            <p>With its delicate balance of whimsy and wisdom, this poetic retelling invites readers into a world where dreams stretch beyond the horizon, and imagination has no limits.</p>
-                                                        </div>
-                                                    </div>
-                                                </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
