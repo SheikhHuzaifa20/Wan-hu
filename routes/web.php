@@ -124,8 +124,8 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function () {
     // Route::get('user/restore/{id}', 'Admin\\UsersController@restoreUser')->name('admin.user.');
 
 
-    Route::resource('product', 'Admin\\ProductController');
-    Route::get('product/{id}/delete', ['as' => 'product.delete', 'uses' => 'Admin\\ProductController@destroy']);
+    Route::resource('book', 'Admin\\ProductController');
+    Route::get('book/{id}/delete', ['as' => 'book.delete', 'uses' => 'Admin\\ProductController@destroy']);
     Route::get('product/get/index', 'Admin\ProductController@getIndex')->name('product.getIndex');
 
     Route::get('order-product/list', ['as' => 'order.list', 'uses' => 'Admin\\ProductController@orderList']);
@@ -145,7 +145,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function () {
     Route::get('status/pending/{id}', 'Admin\\ProductController@updatestatusPending')->name('status.pending');
     Route::get('status/failed/{id}', 'Admin\\ProductController@updatestatusFailed')->name('status.failed');
     Route::get('admin/order/delete/{id}', 'Admin\\ProductController@deleteOrder')
-    ->name('order.delete');
+        ->name('order.delete');
     Route::post('course/move', 'Admin\\CourseController@move')->name('course.move');
 
 });

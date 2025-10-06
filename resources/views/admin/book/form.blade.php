@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-12">
             <div class="form-group">
-                {!! Form::label('product_title', 'Product Title') !!}
+                {!! Form::label('product_title', 'Book Title') !!}
                 {!! Form::text(
                     'product_title',
                     null,
