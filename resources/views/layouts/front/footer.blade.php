@@ -42,7 +42,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Subscribe</button>
                     </form>
-                    <div id="formLoader" style="display:none; text-align:center; margin-top:10px;">
+                    <div id="formLoaders" style="display:none; text-align:center; margin-top:10px;">
                         <img src="{{ asset('asset/images/loader.gif') }}" class="img-fluid" alt="">
                     </div>
                 </div>

@@ -84,7 +84,7 @@
 
                     let form = $(this);
 
-                    let loader = $('#formLoader');
+                    let loader = $('#formLoaders');
                     let submitBtn = form.find('button[type="submit"]');
 
                     loader.show();
