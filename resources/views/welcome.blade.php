@@ -77,16 +77,7 @@
                         <div class="animate-img right-img">
                             <img src="{{ asset('asset/images/1.png') }}" class="img-fliud" alt="">
                         </div>
-<<<<<<< HEAD
-                        <h3>
-                            “Montz turns a centuries-old legend into a gentle reminder that even the
-                            wildest aspirations deserve a moment to shine. This poetic tale plants a
-                            spark of possibility in young hearts and reminds us all to keep looking up.”
-
-                        </h3>
-=======
                         {!! $sections[7]->value !!}
->>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                         <a href="#reviews" class="btn btn-web blue-btn">More Reviews</a>
                         <div class="animate-img left-img">
                             <img src="{{ asset('asset/images/2.png') }}" class="img-fliud" alt="">
@@ -268,28 +259,16 @@
                 <div class="col-lg-12">
                     <div class="owl-slides">
                         <div class="happy-client owl-carousel owl-theme">
-<<<<<<< HEAD
-                            @foreach($testimonial as $testimonial)
-=======
                             @foreach ($testimonial as $testimonial)
->>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                                 {{-- @dd($testimonial) --}}
                                 <div class="item">
                                     <div class="main-client">
                                         <img src="{{ asset('asset/images/21.png') }}" class="img-fluid" alt="">
-<<<<<<< HEAD
-                                        {!!$testimonial->comments!!}
-                                        <div class="name-client">
-                                            <h6>
-                                                {{$testimonial->name}}
-                                                <span class="d-block">{{$testimonial->designation}}</span>
-=======
                                         {!! $testimonial->comments !!}
                                         <div class="name-client">
                                             <h6>
                                                 {{ $testimonial->name }}
                                                 <span class="d-block">{{ $testimonial->designation }}</span>
->>>>>>> 1132b61a8fb88656a883dbf9fe620682cddfe24a
                                             </h6>
                                         </div>
                                     </div>
