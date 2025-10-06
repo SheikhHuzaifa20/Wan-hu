@@ -39,10 +39,11 @@ class HomeController extends Controller
     {
         //$this->middleware('auth');
 
+
         $logo = imagetable::select('img_path')
             ->where('table_name', '=', 'logo')
             ->first();
-
+            
         $favicon = imagetable::select('img_path')
             ->where('table_name', '=', 'favicon')
             ->first();
@@ -73,25 +74,25 @@ class HomeController extends Controller
 
         $legend_wanhu = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 17) 
+            ->where('products.id', 17)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
         $macabee_brothers = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 19) 
+            ->where('products.id', 19)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
         $farmer_dell_jezebell = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 20) 
+            ->where('products.id', 20)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
         $the_crossing = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 21) 
+            ->where('products.id', 21)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
@@ -105,10 +106,10 @@ class HomeController extends Controller
     {
         $product = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 17) 
+            ->where('products.id', 17)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
-            // dd($product->product_title);
+        // dd($product->product_title);
 
         return view('legend_wanhu', compact('product'));
     }
@@ -117,7 +118,7 @@ class HomeController extends Controller
     {
         $product = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 19) 
+            ->where('products.id', 19)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
@@ -128,7 +129,7 @@ class HomeController extends Controller
     {
         $product = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 20) 
+            ->where('products.id', 20)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 
@@ -139,7 +140,7 @@ class HomeController extends Controller
     {
         $product = DB::table('products')
             ->leftJoin('product_imagess', 'products.id', '=', 'product_imagess.product_id')
-            ->where('products.id', 21) 
+            ->where('products.id', 21)
             ->select('products.*', 'product_imagess.image as additional_image')
             ->first();
 

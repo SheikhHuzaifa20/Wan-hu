@@ -27,9 +27,9 @@
                                                 <!-- <h2>simply dummy text</h2> -->
                                                 {!! $product->description !!}
                                                 <div class="banner-btn">
-                                                    <a href="{{ route('contact') }}"
-                                                        class="btn btn-web trns-btn">Contact</a>
-                                                    <a href="#bookssec" class="btn btn-web blue-btn">Books</a>
+                                                    <a href="{{ route('contact') }}" class="btn btn-web trns-btn">Contact</a>
+                                                    <a href="#bookssec"
+                                                        class="btn btn-web blue-btn">Books</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -170,8 +170,7 @@
                             <div class="atropos-scale">
                                 <div class="atropos-rotate">
                                     <div class="atropos-inner">
-                                        <img src="{{ $page->image }}" class="img-fluid" alt=""
-                                            data-atropos-offset="2">
+                                        <img src="{{ $page->image }}" class="img-fluid" alt="" data-atropos-offset="2">
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +182,7 @@
                     <div class="wanhu-books-content">
                         <h3 class="typingheading">{{ $page->name }}</h3>
                         {!! $page->content !!}
-                        <a href="about.php" class="btn btn-web blue-btn">Read More</a>
+                        <a href="{{route('about')}}" class="btn btn-web blue-btn">Read More</a>
                     </div>
                 </div>
             </div>

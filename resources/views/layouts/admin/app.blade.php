@@ -14,7 +14,8 @@ $favicon = DB::table('imagetable')->where('table_name', 'favicon')->first();
     <meta name="description" content="Admin Mintone">
     <meta name="author" content="Admin Mintone">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset(!empty($favicon->img_path) ? $favicon->img_path : '')}}">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="{{asset(!empty($favicon->img_path) ? $favicon->img_path : '')}}">
     <title>{{ config('app.name') }}</title>
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700"
@@ -49,6 +50,14 @@ $favicon = DB::table('imagetable')->where('table_name', 'favicon')->first();
         .main-menu.menu-dark .navigation li a img {
             width: 22px;
             margin-right: 10px;
+        }
+
+        .header-navbar .navbar-header .navbar-brand .brand-logo {
+            filter: none !important;
+        }
+
+        .image-privew img {
+            width: 100%;
         }
     </style>
     @stack('after-css')
@@ -118,7 +127,7 @@ $favicon = DB::table('imagetable')->where('table_name', 'favicon')->first();
                         heading: 'Success!',
                         position: 'top-center',
                         text: '{{session()->get('
-                    message ')}}',
+                            message ')}}',
                         loaderBg: '#ff6849',
                         icon: 'success',
                         hideAfter: 3000,
@@ -132,7 +141,7 @@ $favicon = DB::table('imagetable')->where('table_name', 'favicon')->first();
                         heading: 'Info!',
                         position: 'top-center',
                         text: '{{session()->get('
-                    flash_message ')}}',
+                            flash_message ')}}',
                         loaderBg: '#ff6849',
                         icon: 'error',
                         hideAfter: 3000,
