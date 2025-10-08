@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="footer-links">
-                    <h6>Subscribe fot Updates and News</h6>
+                    <h6>Subscribe for Updates and News</h6>
                     <form action="{{ route('newsletterSubmit') }}" method="POST" id="newsletterFormFooter">
                         @csrf
                         <div class="form-group">
